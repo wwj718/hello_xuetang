@@ -20,7 +20,7 @@
       *  版本: 使用 [bootstrap3](https://v3.bootcss.com/)
       *  [startbootstrap](https://startbootstrap.com/): 通过修改模版，开始真实项目
    *  [vuejs](https://cn.vuejs.org/)
-      *  版本: 使用 [v2.x](https://cn.vuejs.org/))
+      *  版本: 使用 [v2.x](https://cn.vuejs.org/)
       *  [教程](https://cn.vuejs.org/v2/guide/)
       *  [视频教程](https://learning.dcloud.io/#/)
 *  [leadcloud](https://www.leancloud.cn/): 无需构建后端，获得存储能力
