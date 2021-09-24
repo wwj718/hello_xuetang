@@ -11,7 +11,9 @@
 ## 附录
 
 ### 推荐资源
-*  翻译: [deepL](https://www.deepl.com/)
+*  翻译: 
+    *   粗略翻译: Chrome浏览器右键翻译
+    *   精准翻译: [deepL](https://www.deepl.com/)
 *  编辑器: vscode
 *  在 Github 上发布作品(持续改进)
    *  url: `https://<YOUR_GITHUB_NAME>.github.io/<PROJECT>`, 本项目地址: `https://wwj718.github.io/hello_xuetang/`
