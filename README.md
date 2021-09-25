@@ -15,6 +15,9 @@
     *   粗略翻译: Chrome浏览器右键翻译
     *   精准翻译: [deepL](https://www.deepl.com/)
 *  编辑器: vscode
+*  Github加速:
+    * [GitHub520](https://github.com/521xueweihan/GitHub520)
+    * [FastGithub](https://github.com/dotnetcore/FastGithub)
 *  在 Github 上发布作品(持续改进)
    *  url: `https://<YOUR_GITHUB_NAME>.github.io/<PROJECT>`, 本项目地址: `https://wwj718.github.io/hello_xuetang/`
 *  前端框架
