@@ -11,7 +11,9 @@
 ## 附录
 
 ### 推荐资源
-*  翻译: [deepL](https://www.deepl.com/)
+*  翻译: 
+    *   粗略翻译: Chrome浏览器右键翻译
+    *   精准翻译: [deepL](https://www.deepl.com/)
 *  编辑器: vscode
 *  在 Github 上发布作品(持续改进)
    *  url: `https://<YOUR_GITHUB_NAME>.github.io/<PROJECT>`, 本项目地址: `https://wwj718.github.io/hello_xuetang/`
@@ -23,5 +25,11 @@
       *  版本: 使用 [v2.x](https://cn.vuejs.org/)
       *  [教程](https://cn.vuejs.org/v2/guide/)
       *  [视频教程](https://learning.dcloud.io/#/)
+<<<<<<< HEAD
 *  [leadcloud](https://www.leancloud.cn/): 无需构建后端，获得存储能力
 *  树莓派托管网站(192.168.8.106)， 服务局域网里的同学
+=======
+*  [markdown入门](https://www.markdown.xyz/): 使用 markdown 写文档(readme等)
+*  [leadcloud](https://www.leancloud.cn/): 无需构建后端，获得存储能力
+*  树莓派托管网站(192.168.8.106)， 服务局域网里的同学
+>>>>>>> a80f76b8b94e9256ff67afa60f7671fe36e0f180
