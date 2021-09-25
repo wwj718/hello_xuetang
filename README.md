@@ -18,7 +18,7 @@
 *  Github加速:
     * [GitHub520](https://github.com/521xueweihan/GitHub520)
     * [FastGithub](https://github.com/dotnetcore/FastGithub)
-*  在 Github 上发布作品(持续改进)
+*  在 Github 上[发布作品](./publish.md)(持续改进)
    *  url: `https://<YOUR_GITHUB_NAME>.github.io/<PROJECT>`, 本项目地址: `https://wwj718.github.io/hello_xuetang/`
 *  前端框架
    *  [bootstrap](http://bootcss.com/): 流行的UI框架， 让web开发更迅速、简单
