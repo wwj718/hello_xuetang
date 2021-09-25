@@ -15,11 +15,13 @@
     *   粗略翻译: Chrome浏览器右键翻译
     *   精准翻译: [deepL](https://www.deepl.com/)
 *  编辑器: vscode
-*  Github加速:
-    * [GitHub520](https://github.com/521xueweihan/GitHub520)
-    * [FastGithub](https://github.com/dotnetcore/FastGithub)
-*  在 Github 上[发布作品](./publish.md)(持续改进)
-   *  url: `https://<YOUR_GITHUB_NAME>.github.io/<PROJECT>`, 本项目地址: `https://wwj718.github.io/hello_xuetang/`
+*  Github
+   *  [Github简介](https://www.zhihu.com/question/20070065/answer/79557687)
+   *  Github加速:
+      * [GitHub520](https://github.com/521xueweihan/GitHub520)
+      * [FastGithub](https://github.com/dotnetcore/FastGithub)
+   *  在 Github 上[发布作品](./publish.md)(持续改进)
+      *  url: `https://<YOUR_GITHUB_NAME>.github.io/<PROJECT>`, 本项目地址: `https://wwj718.github.io/hello_xuetang/`
 *  前端框架
    *  [bootstrap](http://bootcss.com/): 流行的UI框架， 让web开发更迅速、简单
       *  版本: 使用 [bootstrap3](https://v3.bootcss.com/)
@@ -31,3 +33,8 @@
 *  [markdown入门](https://www.markdown.xyz/): 使用 markdown 写文档(readme等)
 *  [leadcloud](https://www.leancloud.cn/): 无需构建后端，获得存储能力
 *  树莓派托管网站(192.168.8.106)， 服务局域网里的同学
+*  前端基础学习(推荐资源):
+   *  [CS50 HTML, CSS, JavaScript](https://www.bilibili.com/video/BV1Ly4y1E7UY/)
+   *  [开始学习 HTML](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+   *  [html入门](https://www.w3school.com.cn/html/index.asp)
+   
