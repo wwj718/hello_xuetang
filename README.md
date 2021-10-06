@@ -37,7 +37,7 @@
 *  [leadcloud](https://www.leancloud.cn/): 无需构建后端，获得存储能力
 *  树莓派托管网站(192.168.8.106)， 服务局域网里的同学
 *  前端基础学习(推荐资源):
+   *  [MDN web 文档](https://developer.mozilla.org/zh-CN/docs/learn)
    *  [CS50 HTML, CSS, JavaScript](https://www.bilibili.com/video/BV1Ly4y1E7UY/)
-   *  [开始学习 HTML](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
    *  [html入门](https://www.w3school.com.cn/html/index.asp)
    
