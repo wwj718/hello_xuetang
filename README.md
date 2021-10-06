@@ -32,6 +32,9 @@
       *  版本: 使用 [v2.x](https://cn.vuejs.org/)
       *  [教程](https://cn.vuejs.org/v2/guide/)
       *  [视频教程](https://learning.dcloud.io/#/)
+*  前端 Playground: 用于快速实验与部署（视为线上编辑器）
+   *  [glitch](https://glitch.com/)
+   *  [codesandbox](https://codesandbox.io/)
 *  [markdown入门](https://www.markdown.xyz/): 使用 markdown 写文档(readme等)
 *  [leadcloud](https://www.leancloud.cn/): 无需构建后端，获得存储能力
 *  树莓派托管网站(192.168.8.106)， 服务局域网里的同学
