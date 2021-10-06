@@ -42,4 +42,4 @@
    *  [CS50 HTML, CSS, JavaScript](https://www.bilibili.com/video/BV1Ly4y1E7UY/)
    *  [MDN web 文档](https://developer.mozilla.org/zh-CN/docs/learn)
    *  [html入门](https://www.w3school.com.cn/html/index.asp)
-   
+   *  [Front-End-Checklist](https://github.com/JohnsenZhou/Front-End-Checklist)
