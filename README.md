@@ -15,6 +15,7 @@
     *   粗略翻译: Chrome浏览器右键翻译
     *   精准翻译: [deepL](https://www.deepl.com/)
 *  编辑器: vscode
+*  [为什么你应该（从现在开始就）写博客](http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/)
 *  Github
    *  [Github简介](https://www.zhihu.com/question/20070065/answer/79557687)
    *  Github加速:
@@ -43,3 +44,4 @@
    *  [MDN web 文档](https://developer.mozilla.org/zh-CN/docs/learn)
    *  [html入门](https://www.w3school.com.cn/html/index.asp)
    *  [Front-End-Checklist](https://github.com/JohnsenZhou/Front-End-Checklist)
+
