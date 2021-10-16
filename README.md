@@ -22,6 +22,12 @@
       * [FastGithub](https://github.com/dotnetcore/FastGithub)
    *  在 Github 上[发布作品](./publish.md)(持续改进)
       *  url: `https://<YOUR_GITHUB_NAME>.github.io/<PROJECT>`, 本项目地址: `https://wwj718.github.io/hello_xuetang/`
+   *  git客户端
+      *  直接使用网页(类似网盘)
+      *  推荐使用 github 官方客户端
+      *  vscode 内置 git客户端
+      *  命令行: [git - 简明指南](https://rogerdudler.github.io/git-guide/index.zh.html)
+      
 *  前端框架
    *  [bootstrap](http://bootcss.com/): 流行的UI框架， 让web开发更迅速、简单
       *  版本: 使用 [bootstrap3](https://v3.bootcss.com/)
