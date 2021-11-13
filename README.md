@@ -2,6 +2,9 @@
 
 实务学堂(kido)编程课 
 
+* github地址: https://github.com/wwj718/hello_xuetang
+* gitee(国内)地址: https://gitee.com/wuwenjie/hello_xuetang
+
 ## week1: 你的地盘
 
 在互联网发布你的主页。
