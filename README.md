@@ -50,6 +50,7 @@
 *  树莓派托管网站(192.168.8.106)， 服务局域网里的同学
 *  前端基础学习(推荐资源):
    *  [CS50 HTML, CSS, JavaScript](https://www.bilibili.com/video/BV1Ly4y1E7UY/)
+   *  [Head First HTML与CSS、XHTML](https://book.douban.com/subject/3040870/)(XHTML部分不用读)
    *  [MDN web 文档](https://developer.mozilla.org/zh-CN/docs/learn)
    *  [html入门](https://www.w3school.com.cn/html/index.asp)
    *  [Front-End-Checklist](https://github.com/JohnsenZhou/Front-End-Checklist)
