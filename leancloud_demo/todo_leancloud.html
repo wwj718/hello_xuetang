@@ -73,8 +73,6 @@
         });
         // 声明 class
         const Todo = AV.Object.extend('Todo');
-        // 构建对象
-        const todo = new Todo();
         get_from_cloud_and_update();
 
         function list_all(items) {
@@ -105,6 +103,8 @@
         }
 
         function add_to_cloud(content) {
+            // 构建对象
+            const todo = new Todo();
             todo.set('content', content);
             // 将对象保存到云端
             todo.save().then((todo) => {
