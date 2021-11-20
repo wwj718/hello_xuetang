@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
+    <title>待办事项(Todo)</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+
+        body {
+            background: #f2f2f2;
+            overflow: auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 5%;
+            font-size: 3rem;
+            text-decoration: underline;
+        }
+
+        ul {
+            text-align: lleft;
+            padding-left: 10%;
+            padding: 7%;
+            font-size: 2rem;
+            list-style: circle;
+        }
+
+        li:hover {
+            color: red;
+        }
+    </style>
+
+<body>
+    <div class="container">
+        <h1 class="row">
+            待办事项
+        </h1>
+        <br /><br />
+        <div class="row">
+            <form class="form-inline col-sm-offset-3">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                    </span>
+                    <input type="text" class="form-control" placeholder="todo-item" id="box" style="width: 30vw" />
+                </div>
+                <div class="form-group">
+                    <input type="button" class="btn btn-primary form-control" value="添加" style="width: 10vw"
+                        onclick="add_item()" />
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <ul id="list_item">
+            </ul>
+        </div>
+    </div>
+    <script>
+        const { Query, User } = AV;
+        AV.init({
+            appId: "yyEMCgxCperKRRroUJnYMA5C-gzGzoHsz",
+            appKey: "ivkxDps9A2Q84ihAxxjKT1Lt",
+            serverURL: "https://yyemcgxc.lc-cn-n1-shared.com"
+        });
+        // 声明 class
+        const Todo = AV.Object.extend('Todo');
+        // 构建对象
+        const todo = new Todo();
+        get_from_cloud_and_update();
+
+        function list_all(items) {
+            let list_item = document.getElementById("list_item");
+            list_item.innerHTML = ''; // 移除所有子元素
+
+            items.forEach((item) => {
+                    // 该操作无需网络连接
+                    const content = item.get('content');
+                    // console.log('item:', content)
+                    let make_li = document.createElement("LI");
+                    make_li.appendChild(document.createTextNode(content));
+                    list_item.appendChild(make_li);
+                });
+            
+            /* 点击删除 
+            make_li.onclick = function () {
+                this.parentNode.removeChild(this);
+            }*/
+        }
+
+        function get_from_cloud_and_update() {
+            const query = new AV.Query('Todo');
+            // query.equalTo('lastName', 'Smith');
+            query.find().then((items) => {
+                list_all(items)
+            });
+        }
+
+        function add_to_cloud(content) {
+            todo.set('content', content);
+            // 将对象保存到云端
+            todo.save().then((todo) => {
+                // 成功保存之后，执行其他逻辑
+                console.log(`保存成功。objectId：${todo.id}`);
+                get_from_cloud_and_update()
+            }, (error) => {
+                // 异常处理
+            });
+        }
+
+        function add_item() {
+            let item = document.getElementById("box");
+            if (item.value != "") {
+                // 同步到云端仓库
+                add_to_cloud(item.value)
+                // 重置输入框
+                item.value = ""
+            }
+            else {
+                alert("请输入内容");
+            }
+
+        }
+    </script>
+</body>
+
+</html>

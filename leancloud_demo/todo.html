@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>待办事项(Todo)</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+            
+        body {
+            background: #f2f2f2;
+            overflow: auto;
+        }
+            
+        h1{
+            text-align: center;
+            margin: 5%;
+            font-size: 3rem;
+            text-decoration: underline;
+        }
+            
+        ul {
+            text-align: lleft;
+            padding-left: 10%;
+            padding: 7%;
+            font-size: 2rem;
+            list-style: circle;
+        }
+            
+        li:hover{
+            color:red;
+        }
+    </style>
+<body>
+	<div class="container">
+		<h1 class="row">	 
+        待办事项
+		</h1>
+		<br/><br/>
+		<div class="row">
+			<form class="form-inline col-sm-offset-3">
+				<div class="input-group">
+					<span class="input-group-addon">
+					<i class="glyphicon glyphicon-pencil"></i>
+					</span>
+					<input type="text" class="form-control"
+						placeholder="todo-item"
+						id="box" style="width: 30vw" />
+				</div>
+				<div class="form-group">
+					<input type="button"
+						class="btn btn-primary form-control"
+						value="添加" style="width: 10vw"
+						onclick="add_item()" />
+				</div>
+			</form>
+		</div>
+		<div class="row">
+			<ul id="list_item">
+			</ul>
+		</div>
+	</div>
+<script>
+function add_item() {
+  let item = document.getElementById("box");
+  let list_item = document.getElementById("list_item");
+  if(item.value != ""){
+      let make_li = document.createElement("LI");
+      make_li.appendChild(document.createTextNode(item.value));
+  
+      // 将li加到ul里
+      list_item.appendChild(make_li);
+  
+      // 重置输入框
+      item.value=""
+      // 点击删除 
+      make_li.onclick = function(){
+        this.parentNode.removeChild(this);
+      }
+  
+  }
+  else{
+      alert("请输入内容");
+  }
+  
+}
+</script>
+</body>
+</html>
