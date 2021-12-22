@@ -43,6 +43,7 @@
       *  [教程](https://cn.vuejs.org/v2/guide/)
       *  [视频教程](https://learning.dcloud.io/#/)
 *  前端 Playground: 用于快速实验与部署（视为线上编辑器）
+   *  [replit](https://replit.com/)
    *  [glitch](https://glitch.com/)
    *  [codesandbox](https://codesandbox.io/)
 *  [markdown入门](https://www.markdown.xyz/): 使用 markdown 写文档(readme等)
